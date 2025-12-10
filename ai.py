@@ -103,7 +103,7 @@ if __name__ == "__main__":
     generator = ImageGenerator()
     
     # Optional: Upgrade the model before launching GUI
-    # generator.model_handler.upgrade_model("stabilityai/stable-diffusion-2-1")
+     generator.model_handler.upgrade_model("stabilityai/stable-diffusion-2-1")
     
     # Launch the GUI
     create_gui(generator)
